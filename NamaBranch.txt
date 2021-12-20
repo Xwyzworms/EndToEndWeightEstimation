@@ -1,0 +1,4 @@
+ModelDevelopment -> model
+EdgeComputing -> edge
+MobileGan -> mobile
+Backend -> backend
