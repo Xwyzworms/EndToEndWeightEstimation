@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id "kotlin-kapt"
 }
 
 android {
@@ -33,6 +34,38 @@ android {
 }
 
 dependencies {
+    def exoplayerVer = "2.16.1"
+    def lifecycleVer = "2.4.1"
+    def recyclerViewVer = "1.2.1"
+    def roomVer = "2.4.1"
+    def coroutinesVer = "1.6.0"
+
+    // Exoplayer for Media
+    implementation "com.google.android.exoplayer:exoplayer-core:$exoplayerVer"
+    implementation "com.google.android.exoplayer:exoplayer-dash:$exoplayerVer"
+    implementation "com.google.android.exoplayer:exoplayer-ui:$exoplayerVer"
+
+    //LivedataViemodel
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleVer"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVer"
+
+
+    //annotation Processor
+    kapt "androix.lifecycle:lifecycle-compiler:$lifecycleVer"
+
+    //RecyclerView
+    implementation "androidx.recyclerview:recyclerview:$recyclerViewVer"
+
+    //ROOM
+    implementation "androidx.room:room-runtime:$roomVer"
+    implementation "androidx.room:room-ktx:$roomVer"
+
+    //Coroutines
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVer"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutinesVer"
+
+
+
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation 'androidx.core:core-ktx:1.7.0'
