@@ -2,4 +2,11 @@
     <string name="app_name">BridgeEstimation</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="total_kendaraan">Total Kendaraan :</string>
+    <string name="trukgandar2">Truk Gandar 2</string>
+    <string name="trukgandar3">"Truk Gandar 3 : "</string>
+    <string name="masukan_batasan_estimasi">Masukan Batasan Estimasi</string>
+    <string name="truk_gandar_3">Truk Gandar 3</string>
+    <string name="truk_gandar_4">Truk Gandar 4</string>
+    <string name="bis">Bis</string>
 </resources>
