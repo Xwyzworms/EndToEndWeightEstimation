@@ -33,6 +33,7 @@ android {
 
 dependencies {
 
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     def androidMaterial="1.5.0"
     //For chart
     implementation "com.github.AnyChart:AnyChart-Android:1.1.2"
@@ -45,8 +46,6 @@ dependencies {
     implementation "androidx.navigation:navigation-fragment-ktx:2.4.1"
 
     implementation "androidx.navigation:navigation-ui-ktx:2.4.1"
-
-
 
 
     implementation 'androidx.core:core-ktx:1.7.0'
