@@ -1,4 +1,4 @@
-package com.pritim.weightvisualization
+package com.TA.myapplication
 
 import org.junit.Test
 
