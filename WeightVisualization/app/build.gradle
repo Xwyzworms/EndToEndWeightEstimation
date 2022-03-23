@@ -1,17 +1,15 @@
 plugins {
     id 'com.android.application'
-    id 'kotlin-android'
-    id "kotlin-kapt"
+    id 'org.jetbrains.kotlin.android'
 }
 
 android {
-    compileSdkVersion 30
-    buildToolsVersion "30.0.3"
+    compileSdk 31
 
     defaultConfig {
-        applicationId "com.pritim.weightvisualization"
-        minSdkVersion 23
-        targetSdkVersion 30
+        applicationId "com.TA.myapplication"
+        minSdk 26
+        targetSdk 31
         versionCode 1
         versionName "1.0"
 
@@ -34,45 +32,28 @@ android {
 }
 
 dependencies {
-    def exoplayerVer = "2.16.1"
-    def lifecycleVer = "2.4.1"
-    def recyclerViewVer = "1.2.1"
-    def roomVer = "2.4.1"
-    def coroutinesVer = "1.6.0"
 
-    // Exoplayer for Media
-    implementation "com.google.android.exoplayer:exoplayer-core:$exoplayerVer"
-    implementation "com.google.android.exoplayer:exoplayer-dash:$exoplayerVer"
-    implementation "com.google.android.exoplayer:exoplayer-ui:$exoplayerVer"
+    def androidMaterial="1.5.0"
+    //For chart
+    implementation "com.github.AnyChart:AnyChart-Android:1.1.2"
 
-    //LivedataViemodel
-    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleVer"
-    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVer"
+    implementation "com.google.android.material:material:$androidMaterial"
 
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.4.1"
 
-    //annotation Processor
-    kapt "androix.lifecycle:lifecycle-compiler:$lifecycleVer"
+    implementation "androidx.navigation:navigation-fragment-ktx:2.4.1"
 
-    //RecyclerView
-    implementation "androidx.recyclerview:recyclerview:$recyclerViewVer"
-
-    //ROOM
-    implementation "androidx.room:room-runtime:$roomVer"
-    implementation "androidx.room:room-ktx:$roomVer"
-
-    //Coroutines
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVer"
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutinesVer"
+    implementation "androidx.navigation:navigation-ui-ktx:2.4.1"
 
 
 
 
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation 'androidx.core:core-ktx:1.7.0'
-    implementation 'androidx.appcompat:appcompat:1.4.0'
-    implementation 'com.google.android.material:material:1.4.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
-    testImplementation 'junit:junit:4.+'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 }
