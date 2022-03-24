@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'com.google.gms.google-services'
 }
 
 android {
@@ -40,7 +41,9 @@ dependencies {
     def androidMaterial="1.5.0"
     //For chart
     def lol="1.2.1"
+    implementation platform('com.google.firebase:firebase-bom:29.2.1')
     implementation 'com.github.PhilJay:MPAndroidChart:v3.0.3'
+    implementation "com.google.gms:google-services:4.3.10"
 
     implementation "com.google.android.material:material:$androidMaterial"
 
