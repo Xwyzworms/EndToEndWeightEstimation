@@ -15,6 +15,7 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        buildConfigField("String", "DATABASE_URL",database_url)
     }
 
     buildTypes {
@@ -44,6 +45,7 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:29.2.1')
     implementation 'com.github.PhilJay:MPAndroidChart:v3.0.3'
     implementation "com.google.gms:google-services:4.3.10"
+    implementation "com.google.firebase:firebase-database:20.0.4"
 
     implementation "com.google.android.material:material:$androidMaterial"
 
