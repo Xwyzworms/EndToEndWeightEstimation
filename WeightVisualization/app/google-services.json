@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "765795992354",
+    "project_id": "tugasakhirprim",
+    "storage_bucket": "tugasakhirprim.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765795992354:android:7a23252421e9bc49d95b7b",
+        "android_client_info": {
+          "package_name": "com.TA.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765795992354-hh9llbu9r45fmk92cd8lsfrvs8e88np8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNfBdJFMXW0u0M9hxzjl1gI9_G1bMili8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765795992354-hh9llbu9r45fmk92cd8lsfrvs8e88np8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

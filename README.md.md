@@ -6,4 +6,5 @@
 - [x] Create The App Design
 - [ ] Create the App Implementation
 - [ ] Create The Backend For Streaming data( Firebase )
-- [ ] a
+- [ ] Understand the Pipeline of Yolo Model 
+- [ ] [ ]
