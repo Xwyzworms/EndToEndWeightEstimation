@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Truck4GandarSamping</folder>
+	<filename>truck4-40069.jpg</filename>
+	<path>C:\Users\xwyzworm\Documents\Semester 8\EndtoEndWeightEstimation\ModelDevelopment\model_data\labelledData\Truck4GandarSamping\truck4-40069.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>186</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>truk_4_gandar</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>6</xmin>
+			<ymin>53</ymin>
+			<xmax>485</xmax>
+			<ymax>171</ymax>
+		</bndbox>
+	</object>
+</annotation>
