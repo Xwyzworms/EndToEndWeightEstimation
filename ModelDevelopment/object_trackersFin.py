@@ -80,6 +80,16 @@ def main(_argv):
         
         print(input_details)
         print(output_details)
-    else 
+    else:
+        saved_model_loaded = tf.saved_model.load(FLAGS.weights, tags=[tag_constants.SERVING]) # Pada dasarnya kita punya model yang sudah di train, dan kita akan menggunakan model ini untuk memprediksi objek yang akan ditracking, menggunakan SERV|ING ( CUMA tag aja) Jadi Graph yang di pake adalah graph Serving
+        
+        infer = saved_model_loaded.signatures["serving_default"] 
     
+    try:
+        vid = cv2.VideoCapture(int(video_path))
+    except FileNotFoundError:
+        vid = cv2.VideoCapture(video_path)
     
+    out = None
+    
+    # * if Save locally 
