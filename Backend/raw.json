@@ -1,0 +1,22 @@
+{
+  "diesel_fe74s_truck": {
+    "name": "diesel_fe74L_truck",
+    "minimum": 12,
+    "maximum": 14
+  },
+  "diesel_fe84HDL_truck": {
+    "name": "diesel_fe74s_truck",
+    "minimum": 23,
+    "maximum": 23
+  },
+  "diesel_fe74L_truck": {
+    "name": "diesel_fe74s_truck",
+    "minimum": 11,
+    "maximum": 23
+  },
+  "diesel_fe84BC_truck": {
+    "name": "diesel_fe74s_truck",
+    "minimum": 31,
+    "maximum": 23
+  }
+}

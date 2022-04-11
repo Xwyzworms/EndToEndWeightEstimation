@@ -1,0 +1,91 @@
+{
+  "main": {
+    "id": "177f6eaf5a32e873",
+    "type": "split",
+    "children": [
+      {
+        "id": "a89569613a6bf936",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0ee1f129df3a2308",
+    "type": "split",
+    "children": [
+      {
+        "id": "ae519d3eaed68085",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "78504f023f2c57e3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "f1cd7f300005bcc1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "4ebe74f46b1bc079",
+    "type": "split",
+    "children": [
+      {
+        "id": "ecd736bb345927fd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ad86e79bbdde515",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "a89569613a6bf936",
+  "lastOpenFiles": [
+    "Journey.md.md",
+    "README.md"
+  ]
+}

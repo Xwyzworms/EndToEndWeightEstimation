@@ -1,0 +1,11 @@
+{
+  "enabledOn": {
+    "desktop": true,
+    "mobile": true
+  },
+  "minSize": 1000,
+  "direction": "vertical",
+  "editorFirst": true,
+  "paneToFocus": "source",
+  "linkPanes": true
+}
